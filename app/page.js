@@ -84,21 +84,21 @@ export default function HomePage() {
   return (
     <>
       {/* ======== HERO ======== */}
-      <section className="relative min-h-[90vh] flex items-center pt-18 noise-texture overflow-hidden">
+      <section className="relative min-h-[90vh] bg-[url('/herobanner.webp')] bg-cover bg-center bg-no-repeat   flex items-center pt-18 noise-texture overflow-hidden">
         {/* Background decoration */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.03] rounded-full blur-[120px]" />
         <div className="absolute bottom-[-100px] left-[-100px] w-[400px] h-[400px] bg-accent/[0.02] rounded-full blur-[100px]" />
 
         <div className="container-main relative z-10 text-center py-20 md:py-30">
           {/* Breadcrumb */}
-          <div className="flex items-center justify-center gap-2 text-xs text-text-muted mb-8">
+          <div className="flex items-center justify-center gap-2 text-xs text-white mb-8">
             <span>OECD</span>
             <span className="text-accent">›</span>
             <span>BEPS</span>
             <span className="text-accent">›</span>
             <span>Transfer Pricing</span>
             <span className="text-accent">›</span>
-            <span className="text-text-secondary">Pillar Two</span>
+            <span className="text-white">Pillar Two</span>
           </div>
 
           <h1 className="text-hero-sm md:text-hero font-display font-bold max-w-3xl mx-auto mb-6">
@@ -106,7 +106,7 @@ export default function HomePage() {
             <span className="text-accent italic">Precision</span>
           </h1>
 
-          <p className="text-base md:text-lg text-text-secondary max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-base md:text-lg text-white max-w-2xl mx-auto mb-10 leading-relaxed">
             Strategic tax advisory and OECD compliance solutions for US and European
             multinationals. Delivered with technical rigor and senior-level expertise.
           </p>

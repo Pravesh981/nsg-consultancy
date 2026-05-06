@@ -84,7 +84,7 @@ const offices = [
     country: "United Kingdom",
     address: "150 Aldersgate St, Barbican, London EC1A 4AB",
     phone: "+44 (0) 20 7946 0123",
-    email: "london@nsgconsultancy.com",
+    email: "london@SNGconsultancy.com",
   },
   {
     city: "Jaipur",
@@ -93,7 +93,7 @@ const offices = [
     country: "India",
     address: "World Trade Park, Malviya Nagar, Jaipur, Rajasthan 302017",
     phone: "+91 141 271 8500",
-    email: "jaipur@nsgconsultancy.com",
+    email: "jaipur@SNGconsultancy.com",
   },
   {
     city: "Virtual",
@@ -102,7 +102,7 @@ const offices = [
     country: "Global Support",
     address: "Serving clients across 40+ jurisdictions remotely",
     phone: "+44 800 123 4567",
-    email: "global@nsgconsultancy.com",
+    email: "global@SNGconsultancy.com",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block px-3 py-1 rounded text-xs font-medium bg-accent/10 text-accent border border-accent/20 mb-6">
-                About NSG
+                About SNG
               </span>
               <h1 className="text-hero-sm md:text-hero font-display font-bold mb-6">
                 Refining Global{" "}
@@ -125,7 +125,7 @@ export default function AboutPage() {
                 Through Expert Precision.
               </h1>
               <p className="text-text-secondary leading-relaxed">
-                For over 15 years, NSG Consultancy has served as the silent architecture
+                For over 15 years, SNG Consultancy has served as the silent architecture
                 behind the global tax operations of Fortune 500 multinationals.
               </p>
             </div>
@@ -141,10 +141,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* NSG Standard */}
+      {/* SNG Standard */}
       <section className="py-20 md:py-26 bg-navy-surface">
         <div className="container-main">
-          <SectionLabel>The NSG Standard</SectionLabel>
+          <SectionLabel>The SNG Standard</SectionLabel>
           <h2 className="section-title max-w-2xl mb-4">
             Our approach is rooted in technical rigor and senior-led accountability.
           </h2>
@@ -278,7 +278,7 @@ export default function AboutPage() {
         <div className="absolute right-0 top-0 w-[300px] h-[300px] bg-accent/[0.04] rounded-full blur-[100px]" />
         <div className="container-main relative z-10 text-center">
           <h2 className="text-section-sm md:text-section font-display font-bold mb-4">
-            Ready to elevate your global tax strategy with NSG&apos;s expert precision?
+            Ready to elevate your global tax strategy with SNG&apos;s expert precision?
           </h2>
           <div className="flex justify-center gap-4 flex-wrap mt-8">
             <Link href="/contact" className="btn-primary px-8">

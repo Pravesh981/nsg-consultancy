@@ -28,7 +28,7 @@ export default function Footer() {
                   <path d="M7 1L12 4.5V9.5L7 13L2 9.5V4.5L7 1Z" stroke="#D4A843" strokeWidth="1.5" />
                 </svg>
               </div>
-              <span className="font-display text-base font-semibold">NSG Consultancy</span>
+              <span className="font-display text-base font-semibold">SNG Consultancy</span>
             </Link>
             <p className="text-sm text-text-muted leading-relaxed mb-6">
               Strategic tax and compliance advisory for the world&apos;s leading multinationals. Global expertise, delivered with precision.
@@ -87,7 +87,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-navy-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-text-muted">&copy; 2024 NSG Consultancy. All rights reserved.</p>
+          <p className="text-xs text-text-muted">&copy; 2024 SNG Consultancy. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="text-xs text-text-muted hover:text-text-secondary transition-colors">Privacy Policy</Link>
             <Link href="#" className="text-xs text-text-muted hover:text-text-secondary transition-colors">Terms of Service</Link>

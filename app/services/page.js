@@ -224,7 +224,7 @@ export default function ServicesPage() {
             Ready to institutionalize your compliance?
           </h2>
           <p className="text-text-secondary max-w-xl mb-8">
-            Partner with NSG Consultancy to navigate the shifting sands of global taxation
+            Partner with SNG Consultancy to navigate the shifting sands of global taxation
             with the precision your organization demands.
           </p>
           <div className="flex flex-wrap gap-4">

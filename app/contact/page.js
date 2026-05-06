@@ -108,7 +108,7 @@ export default function ContactPage() {
                     <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" className="text-text-muted flex-shrink-0">
                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" />
                     </svg>
-                    <span className="text-accent">london@nsg.consultancy</span>
+                    <span className="text-accent">london@SNG.consultancy</span>
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function ContactPage() {
                     <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" className="text-text-muted flex-shrink-0">
                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" />
                     </svg>
-                    <span className="text-accent">jaipur@nsg.consultancy</span>
+                    <span className="text-accent">jaipur@SNG.consultancy</span>
                   </div>
                 </div>
               </div>
@@ -168,11 +168,11 @@ export default function ContactPage() {
                 <div className="flex gap-8">
                   <div>
                     <p className="text-[10px] text-text-muted uppercase tracking-wider mb-1">New Client Enquiries</p>
-                    <p className="text-sm text-accent font-medium">partners@nsg.consultancy</p>
+                    <p className="text-sm text-accent font-medium">partners@SNG.consultancy</p>
                   </div>
                   <div>
                     <p className="text-[10px] text-text-muted uppercase tracking-wider mb-1">Media &amp; Insights</p>
-                    <p className="text-sm text-accent font-medium">press@nsg.consultancy</p>
+                    <p className="text-sm text-accent font-medium">press@SNG.consultancy</p>
                   </div>
                 </div>
               </div>
@@ -262,7 +262,7 @@ export default function ContactPage() {
                     className="mt-1 w-4 h-4 rounded border-navy-border bg-navy-surface accent-accent"
                   />
                   <span className="text-xs text-text-muted leading-relaxed">
-                    I consent to NSG Consultancy processing my data for the purpose of this
+                    I consent to SNG Consultancy processing my data for the purpose of this
                     technical enquiry. View our{" "}
                     <Link href="#" className="text-accent underline">Privacy Policy</Link>{" "}
                     for more information.

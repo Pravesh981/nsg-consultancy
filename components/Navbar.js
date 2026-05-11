@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
+import LanguageSelector from "./LanguageSelector";
 
 const navLinks = [
   {
@@ -91,7 +92,7 @@ export default function Navbar() {
           </div>
 
           <span className="font-display text-lg font-semibold text-white">
-            NSG{" "}
+            SNG{" "}
             <span className="text-text-secondary font-normal">
               Consultancy
             </span>
@@ -136,6 +137,8 @@ export default function Navbar() {
           ))}
         </nav>
 
+        
+
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
           <Link
@@ -148,7 +151,12 @@ export default function Navbar() {
           <Link href="/contact" className="btn-primary text-xs px-4 py-2">
             Talk to an Expert
           </Link>
+
+
+         
         </div>
+
+           <LanguageSelector />
 
         {/* Mobile Toggle */}
         <button
@@ -233,8 +241,11 @@ export default function Navbar() {
                 Talk to an Expert
               </Link>
             </div>
+          
           </div>
+             
         </div>
+     
       )}
     </header>
   );

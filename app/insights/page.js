@@ -83,17 +83,7 @@ export default function InsightsPage() {
     <>
       {/* Hero */}
       <section className="pt-4   bg-navy-surface noise-texture relative overflow-hidden">
-        {/* <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-accent/[0.03] rounded-full blur-[120px]" />
-        <div className="container-main relative z-10 text-center">
-          <SectionLabel className="text-center">Knowledge Hub</SectionLabel>
-          <h1 className="text-hero-sm md:text-hero font-display font-bold mb-4">
-            Global Tax <span className="text-accent italic">Insights</span> &amp; Strategy
-          </h1>
-          <p className="text-base text-text-secondary max-w-xl mx-auto">
-            Expert analysis, technical briefings, and strategic updates designed for CFOs
-            and Tax Heads at world-leading multinationals.
-          </p>
-        </div> */}
+     
          <img src="/insightbanner.webp" className="w-full rounded-md"/>
 
       </section>

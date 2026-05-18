@@ -87,7 +87,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-navy-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-text-muted">&copy; 2024 SNG Consultancy. All rights reserved.</p>
+          <p className="text-xs text-text-muted">&copy; {new Date().getFullYear()} SNG Consultancy. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="text-xs text-text-muted hover:text-text-secondary transition-colors">Privacy Policy</Link>
             <Link href="#" className="text-xs text-text-muted hover:text-text-secondary transition-colors">Terms of Service</Link>

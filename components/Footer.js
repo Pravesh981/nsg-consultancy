@@ -9,9 +9,9 @@ const footerLinks = {
     { label: "Tax Technology", href: "/services#technology" },
   ],
   "Global Offices": [
-    { label: "London, United Kingdom", href: "/contact", icon: "🔴" },
-    { label: "Jaipur, India", href: "/contact", icon: "🟠" },
-    { label: "EMEA / Americas Support", href: "/contact", icon: "🟡" },
+    // { label: "London, United Kingdom", href: "/contact", icon: "🔴" },
+    { label: "Delhi, India", href: "/contact", icon: "🟠" },
+    // { label: "EMEA / Americas Support", href: "/contact", icon: "🟡" },
   ],
 };
 
